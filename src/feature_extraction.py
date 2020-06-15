@@ -16,8 +16,8 @@ parser.add_argument("output_path")
 args = parser.parse_args()
 
 
-output_path = args.output_path#'/home/server/바탕화면/소스코드/연구코드/Dcase/task5/embeddings2_ef_3ch_5s_eval/'
-input_path = args.input_path# '/home/server/바탕화면/소스코드/연구코드/Dcase/task5/eval/audio_eval/'
+output_path = args.output_path
+input_path = args.input_path
 
 basic_sample = 48000 ######다시시작
 resampling = 44100 ###### 22050 --> 1104   32000 --> 800   44100*2206    BEST 44100 1024
@@ -39,7 +39,7 @@ def feature_extracion(name, srate=resampling):
     second = int(name[3])
     outpath = name[4]
 
-    print("\t진행률: " , str((int(int(name[1])/int(name[2])*100))), "%")
+    print("\tProgress : " , str((int(int(name[1])/int(name[2])*100))), "%")
 
     try:
         y, sr = librosa.load(filename, sr=basic_sample, mono=mono)
