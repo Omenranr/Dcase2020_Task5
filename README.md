@@ -4,7 +4,7 @@
 
 2. Check the SONYC_UST_PATH in "train_start.sh"
 
-3. Create "folder embeddings_ef_3ch_5s_train"
+3. Create folder "embeddings_ef_3ch_5s_train"
 
 4. run ./train_start.sh
 
