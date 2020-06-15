@@ -1,12 +1,8 @@
 # DCASE 2020 Challenge: Task 5 - JHKim
 
-1. Must be located the path(data/audio) the train and validate data
+1. Check the SONYC_UST_PATH in "train_start.sh"
 
-2. run ./setup.sh 
-
-3. Check the SONYC_UST_PATH in "train_start.sh"
-
-4. run ./train_start.sh
+2. run ./train_start.sh
 
 
 Info
