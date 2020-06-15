@@ -1,6 +1,15 @@
 # DCASE 2020 Challenge: Task 5 - JHKim
 
-Must be located the path(data/audio) the train and validate data
+1. Must be located the path(data/audio) the train and validate data
+
+2. Check the SONYC_UST_PATH in "train_start.sh"
+
+3. Create folder embeddings_ef_3ch_5s_train
+
+4. run ./train_start.sh
+
+
+Info
 
 train_start.sh --> Project Sequence shell
 
