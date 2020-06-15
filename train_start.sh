@@ -12,7 +12,7 @@ SONYC_UST_PATH=/home/server/Dcase/task5 ### Project path
 
 pushd src
 
-python3 data_create.py $SONYC_UST_PATH/data/audio/ $SONYC_UST_PATH/embeddings_ef_3ch_5s_train/
+python3 feature_extraction.py $SONYC_UST_PATH/data/audio/ $SONYC_UST_PATH/embeddings_ef_3ch_5s_train/
 
 python3 classify.py $SONYC_UST_PATH/data/annotations_train.csv $SONYC_UST_PATH/data/dcase-ust-taxonomy.yaml $SONYC_UST_PATH/output baseline_fine \
   --label_mode fine --learning_rate 1e-4 --l2_reg 1e-4 \
