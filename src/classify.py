@@ -208,8 +208,6 @@ def construct_mlp(input_size, num_classes, num_frames,
 
     # Add hidden layers
     from keras.layers import Flatten, Conv1D, Conv2D, GlobalMaxPooling1D, GlobalAveragePooling1D, LSTM, Concatenate, GlobalAveragePooling2D, LeakyReLU
-    from keras_layer_normalization import LayerNormalization
-
 
     import efficientnet.keras as efn
 
