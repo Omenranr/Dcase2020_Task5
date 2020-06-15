@@ -2,9 +2,9 @@
 
 1. Must be located the path(data/audio) the train and validate data
 
-2. Check the SONYC_UST_PATH in "train_start.sh"
+2. run ./setup.sh 
 
-3. Create folder "embeddings_ef_3ch_5s_train"
+3. Check the SONYC_UST_PATH in "train_start.sh"
 
 4. run ./train_start.sh
 
