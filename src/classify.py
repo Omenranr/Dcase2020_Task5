@@ -25,7 +25,7 @@ from tensorflow.compat.v1 import InteractiveSession
 from keras import Model
 # Generators
 from keras.models import Sequential
-from data_prepare import DataGenerator
+from data_gen import DataGenerator
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
