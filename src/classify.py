@@ -617,7 +617,7 @@ if __name__ == '__main__':
     parser.add_argument("output_dir", type=str)
     parser.add_argument("exp_id", type=str)
 
-    parser.add_argument("--emb_dir", type=str, default="/home/server/바탕화면/소스코드/연구코드/Dcase/task5/embeddings2_ef_3ch_5s/")
+    parser.add_argument("--emb_dir", type=str)
     parser.add_argument("--dropout_size", type=float, default=0.5)    # keep_prob 1.14    # rate > 2.x
     parser.add_argument("--ef_mode", type=int, default=4)
     parser.add_argument("--learning_rate", type=float, default=1e-4) ## batch 64 1e-3, batch 32 1e-4
