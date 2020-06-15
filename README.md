@@ -1,9 +1,10 @@
 # DCASE 2020 Challenge: Task 5 - JHKim
 
-1. Check the SONYC_UST_PATH in "train_start.sh"
+1. Check the SONYC_UST_PATH in "download_data.sh" and "train_start.sh"
 
-2. run ./train_start.sh
+2. run ./dwonload_data.sh
 
+3. run ./train_start.sh
 
 Info
 
