@@ -4,7 +4,7 @@ Must be located the path(data/audio) the train and validate data
 
 train_start.sh --> Project Sequence shell
 
-src/data_create.py --> Prepare the feature for train
+src/feature_extraction.py --> Prepare the feature for train
 
 src/classify.py --> Train, create Model and predict validate set
 
