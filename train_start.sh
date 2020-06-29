@@ -9,8 +9,12 @@ python3 feature_extraction.py $SONYC_UST_PATH/data/audio/ $SONYC_UST_PATH/embedd
 
 # Train
 python3 classify.py $SONYC_UST_PATH/data/annotations_train.csv $SONYC_UST_PATH/data/dcase-ust-taxonomy.yaml $SONYC_UST_PATH/output baseline_fine \
-  --label_mode fine --learning_rate 1e-4 --l2_reg 1e-4 \
-  --dropout_size 0.4 --ef_mode 4 --num_epochs 8 \
+  --label_mode fine \
+  --learning_rate 1e-4 \
+  --l2_reg 1e-4 \
+  --dropout_size 0.4 \
+  --ef_mode 4 \
+  --num_epochs 8 \
   --emb_dir SONYC_UST_PATH/embeddings_ef_3ch_5s_train/
 
 # Evaluation
