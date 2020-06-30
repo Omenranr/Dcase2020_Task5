@@ -88,7 +88,7 @@ def feature_extracion(name, srate=resampling):
     filename = filename.split('/')[-1]
     time_data = np.asarray(time_data)
     feature_data = np.asarray(feature_data)
-    print(np.shape(feature_data))
+    #print(np.shape(feature_data))
     print(outpath + filename[:-4] + '.npz')
     np.savez(outpath + filename[:-4], timestamps=time_data, embedding=feature_data)
 
