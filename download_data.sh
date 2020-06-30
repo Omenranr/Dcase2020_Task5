@@ -7,6 +7,8 @@ yes | pip3 install -r requirements.txt
 # Download dataset
 mkdir -p $SONYC_UST_PATH/embeddings_ef_3ch_5s_train
 mkdir -p $SONYC_UST_PATH/data
+mkdir -p $SONYC_UST_PATH/output
+
 pushd $SONYC_UST_PATH/data
 wget https://zenodo.org/record/3693077/files/audio.tar.gz
 wget https://zenodo.org/record/3693077/files/dcase-ust-taxonomy.yaml
