@@ -15,7 +15,7 @@ Requirements
 - pip3 install -r requirements.txt
 
 
-Detail information
+information
 ------------
 
 1. Project Sequence shell
