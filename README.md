@@ -1,7 +1,7 @@
 DCASE 2020 Challenge: Task 5 - JHKim
 =====================================
 
-Quick start
+Quick Start
 ------------
 
 Check the SONYC_UST_PATH in "download_data.sh" and "train_start.sh"
