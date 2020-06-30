@@ -15,7 +15,7 @@ python3 classify.py $SONYC_UST_PATH/data/annotations_train.csv $SONYC_UST_PATH/d
   --dropout_size 0.4 \
   --ef_mode 4 \
   --num_epochs 8 \
-  --emb_dir SONYC_UST_PATH/embeddings_ef_3ch_5s_train/
+  --emb_dir $SONYC_UST_PATH/embeddings_ef_3ch_5s_train/
 
 # Evaluation
 python3 evaluate_predictions.py $SONYC_UST_PATH/output/baseline_fine/ $SONYC_UST_PATH/data/annotations_train.csv $SONYC_UST_PATH/data/dcase-ust-taxonomy.yaml
