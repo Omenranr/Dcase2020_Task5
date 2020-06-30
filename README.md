@@ -35,7 +35,7 @@ information
 
 Result
 ------------
-- Best result of task5 in our model 
+Best result of task5 in our model 
 - Fine : best_evaluation_fine.json
 - Coarse : best_evaluation_coarse.json
 
