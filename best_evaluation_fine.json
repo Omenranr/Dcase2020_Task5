@@ -1,1 +1,16 @@
-{"fine": {"micro_auprc": 0.7618003248862828, "micro_f1": 0.6857523302263648, "macro_auprc": 0.6529106189156073, "class_auprc": {"engine": 0.7172083990528944, "machinery-impact": 0.5165817567299122, "non-machinery-impact": 0.6185538393819376, "powered-saw": 0.43227910894638133, "alert-signal": 0.877723647245571, "music": 0.48038838270455836, "human-voice": 0.9018574053394844, "dog": 0.6786924119241193}}, "coarse": {"micro_auprc": 0.8733078374611689, "micro_f1": 0.7538574577516532, "macro_auprc": 0.7775893464572601, "class_auprc": {"engine": 0.8543535282041965, "machinery-impact": 0.691417949532428, "non-machinery-impact": 0.6185538393819376, "powered-saw": 0.736560714444002, "alert-signal": 0.9343197917246073, "music": 0.7318932025168279, "human-voice": 0.974923333929962, "dog": 0.6786924119241193}}}
+{
+  "fine": 
+  {
+    "micro_auprc": 0.7618003248862828,
+    "micro_f1": 0.6857523302263648, 
+    "macro_auprc": 0.6529106189156073, 
+    "class_auprc": {"engine": 0.7172083990528944, "machinery-impact": 0.5165817567299122, "non-machinery-impact": 0.6185538393819376, "powered-saw": 0.43227910894638133, "alert-signal": 0.877723647245571, "music": 0.48038838270455836, "human-voice": 0.9018574053394844, "dog": 0.6786924119241193}
+  }, 
+  "coarse": 
+  {
+    "micro_auprc": 0.8733078374611689, 
+    "micro_f1": 0.7538574577516532, 
+    "macro_auprc": 0.7775893464572601, 
+    "class_auprc": {"engine": 0.8543535282041965, "machinery-impact": 0.691417949532428, "non-machinery-impact": 0.6185538393819376, "powered-saw": 0.736560714444002, "alert-signal": 0.9343197917246073, "music": 0.7318932025168279, "human-voice": 0.974923333929962, "dog": 0.6786924119241193}
+  }
+}
