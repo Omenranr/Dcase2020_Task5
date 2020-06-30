@@ -15,7 +15,7 @@ Requirements
 - pip3 install -r requirements.txt
 
 
-information
+Information
 ------------
 
 1. Data Prepare shell
