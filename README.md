@@ -1,4 +1,8 @@
-# DCASE 2020 Challenge: Task 5 - JHKim
+DCASE 2020 Challenge: Task 5 - JHKim
+=====================================
+
+Fast run
+------------
 
 1. Check the SONYC_UST_PATH in "download_data.sh" and "train_start.sh"
 
@@ -6,14 +10,28 @@
 
 3. run ./train_start.sh
 
-Info
+Requirements
+------------
+- pip3 install -r requirements.txt
 
-train_start.sh --> Project Sequence shell
 
-src/feature_extraction.py --> Prepare the feature for train
+Detail information
+------------
 
-src/classify.py --> Train, create Model and predict validate set
+1. Project Sequence shell
+    - train_start.sh
 
-src/evaluate_predictions.py --> Evaluate the predicted validate set
+2. Prepare the feature for train
+    - src/feature_extraction.py \[audio_folder_path] \[feature_output_dir]
+ 
+3. Train, create Model and predict validate set
+    - src/classify.py \[annotation_path] \[taxonomy_path] \[output_dir] \[--emb_dir] \[--ef_mode] \[--dropout_size] \[--learning_rate] \[--l2_reg] \[--batch_size] \[--num_epochs] \[--patience] \[--random-state]
 
-proposed_evaluation_output.json --> Best result of task5 in our model
+4. Evaluate the predicted validate set
+    - src/evaluate_predictions.py \[output_dir] \[annotation_path] \[taxonomy_path]
+
+Result
+------------
+- Best result of task5 in our model in proposed_evaluation_output.json
+
+
