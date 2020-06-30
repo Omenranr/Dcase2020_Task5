@@ -18,17 +18,20 @@ Requirements
 information
 ------------
 
-1. Project Sequence shell
-    - train_start.sh
+1. Data Prepare shell
+    - ./download_data.sh
 
-2. Prepare the feature for train
-    - src/feature_extraction.py \[audio_folder_path] \[feature_output_dir]
+2. Project Sequence shell
+    - ./train_start.sh
+
+3. Prepare the feature for train
+    - python3 src/feature_extraction.py \[audio_folder_path] \[feature_output_dir]
  
-3. Train, create Model and predict validate set
-    - src/classify.py \[annotation_path] \[taxonomy_path] \[output_dir] \[--emb_dir] \[--ef_mode] \[--dropout_size] \[--learning_rate] \[--l2_reg] \[--batch_size] \[--num_epochs] \[--patience] \[--random-state]
+4. Train, create Model and predict validate set
+    - python3 src/classify.py \[annotation_path] \[taxonomy_path] \[output_dir] \[--emb_dir] \[--ef_mode] \[--dropout_size] \[--learning_rate] \[--l2_reg] \[--batch_size] \[--num_epochs] \[--patience] \[--random-state]
 
-4. Evaluate the predicted validate set
-    - src/evaluate_predictions.py \[output_dir] \[annotation_path] \[taxonomy_path]
+5. Evaluate the predicted validate set
+    - python3 src/evaluate_predictions.py \[output_dir] \[annotation_path] \[taxonomy_path]
 
 Result
 ------------
