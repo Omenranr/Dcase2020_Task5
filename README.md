@@ -21,7 +21,7 @@ information
 1. Data Prepare shell
     - ./download_data.sh
 
-2. Project Sequence shell
+2. Main Sequence shell
     - ./train_start.sh
 
 3. Prepare the feature for train
