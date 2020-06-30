@@ -469,7 +469,7 @@ def train(annotation_path, taxonomy_path, emb_dir, output_dir, exp_id,
     else:
         loss_func = None
 
-    training = False
+    training = True
     prediction = True
 
     if training == True:
