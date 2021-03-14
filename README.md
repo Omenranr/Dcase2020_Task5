@@ -6,7 +6,7 @@ Quick Start
 
 Check the SONYC_UST_PATH in "download_data.sh" and "train_start.sh"
 
-`run ./dwonload_data.sh`
+`run ./download_data.sh`
 
 `run ./train_start.sh`
 
